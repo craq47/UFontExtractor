@@ -33,7 +33,8 @@ namespace UFontExtractor
 
             for (int i = 3; i > 0; i--)
             {
-                Console.WriteLine($"Closing in {i} seconds...");
+                Console.SetCursorPosition(0, Console.CursorTop);
+                Console.Write($"Closing in {i} seconds...");
                 System.Threading.Thread.Sleep(1000);
             }
         }

@@ -72,7 +72,7 @@
     <ManifestKeyFile>UFontExtractor.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
-    <DelaySign>true</DelaySign>
+    <DelaySign>false</DelaySign>
   </PropertyGroup>
   <ItemGroup>
     <None Include="App.config" />
